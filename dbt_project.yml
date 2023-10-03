@@ -81,8 +81,6 @@ vars:
 # Configuring seeds and models
 # Full documentation: https://docs.getdbt.com/docs/configuring-models
 
-seeds:
-  +schema: SALESFORCE
 
 models:
   dbt_data_vault_template:
