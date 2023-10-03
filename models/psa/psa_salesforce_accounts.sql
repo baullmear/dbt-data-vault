@@ -1,6 +1,6 @@
 with source as (
 
-    select * from {{ source('salesforce', 'accounts') }}
+    select * from {{ source('in.c-DBT_SALESFORCE', 'accounts') }}
 
 ),
 
