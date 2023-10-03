@@ -1,7 +1,7 @@
 
 with source as (
 
-    select * from {{ source('salesforce', 'opportunities') }}
+    select * from {{ source('in.c-DBT_SALESFORCE', 'opportunities') }}
 
 ),
 
