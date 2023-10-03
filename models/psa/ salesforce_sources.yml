@@ -10,12 +10,12 @@ sources:
       - name: accounts
         description: all company accounts
           
-     # - name: contacts
-      #  description: all company contacts
+      - name: contacts
+        description: all company contacts
 
-     # - name: leads
-     #   description: company leads
+      - name: leads
+        description: company leads
 
-     # - name: opportunities
-      #  description: company opportunities
+      - name: opportunities
+        description: company opportunities
         
