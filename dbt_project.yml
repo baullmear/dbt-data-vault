@@ -82,7 +82,7 @@ vars:
 # Full documentation: https://docs.getdbt.com/docs/configuring-models
 
 seeds:
-  +schema: in.c-SALESFORCE
+  +schema: 'in.c-SALESFORCE'
 
 models:
   dbt_data_vault_template:
