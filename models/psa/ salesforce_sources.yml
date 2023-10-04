@@ -5,7 +5,7 @@ sources:
   - name: salesforce
     description: sample salesforce data
     database: KEBOOLA_DWH_EXT
-    schema: DBT
+    schema: DBT_SALESFORCE
     tables:
       - name: accounts
         description: all company accounts
