@@ -8,13 +8,13 @@ renamed as (
 
     select
     
-        BATCHID,
-        COMPANYEXTID as ACCOUNTID,
-        COMPANY_NAME,
-        CITY,
-        STATE,
-        DATECREATED,
-        MODIFIEDDATE
+        CreatedById AS BATCHID,
+        Id as ACCOUNTID,
+        Name as COMPANY_NAME,
+        BillingCity as CITY,
+        BillingState as STATE,
+        CreatedDate as DATECREATED,
+        LastModifiedDate as MODIFIEDDATE
 
     from source
 
