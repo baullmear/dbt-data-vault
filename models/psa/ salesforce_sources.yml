@@ -5,10 +5,14 @@ sources:
   - name: salesforce
     description: sample salesforce data
     database: KEBOOLA_17301
-    schema: 'out.c-SALESFORCE_PREPROCESS'
+    schema: in.c-kds-team-ex-salesforce-v2-53003170
     tables:
       - name: accounts
         description: all company accounts
+        quoting:
+            database: true
+            schema: true
+            identifier: true
           
       - name: contacts
         description: all company contacts
