@@ -1,6 +1,6 @@
 with source as (
 
-    select * from {{ source('salesforce', 'accounts') }}
+    select * from {{ source('salesforce', 'Account') }}
 
 ),
 
