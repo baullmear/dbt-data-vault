@@ -4,8 +4,8 @@ version: 2
 sources:
   - name: salesforce
     description: sample salesforce data
-    database: KEBOOLA_DWH_EXT
-    schema: DBT_SALESFORCE
+    database: KEBOOLA_17301
+    schema: in.c-kds-team-ex-salesforce-v2-53003170
     tables:
       - name: accounts
         description: all company accounts
