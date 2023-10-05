@@ -7,12 +7,13 @@ sources:
     database: KEBOOLA_17301
     schema: in.c-kds-team-ex-salesforce-v2-53003170
     tables:
-      - name: accounts
+      - name: Account
         description: all company accounts
         quoting:
             database: true
             schema: true
-          
+            identifier: true
+         
       - name: contacts
         description: all company contacts
 
