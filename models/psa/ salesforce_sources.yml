@@ -12,7 +12,6 @@ sources:
         quoting:
             database: true
             schema: true
-            identifier: true
           
       - name: contacts
         description: all company contacts
