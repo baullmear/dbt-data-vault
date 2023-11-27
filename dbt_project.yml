@@ -81,6 +81,19 @@ vars:
 # Configuring seeds and models
 # Full documentation: https://docs.getdbt.com/docs/configuring-models
 
+
+  target: prod
+  outputs:
+    prod:
+      type: snowflake
+      host: obb17950-keboola_partner.snowflakecomputing.com
+      user: KEBOOLA
+      password: <password>
+      port: 5432
+      dbname: KEBOOLA_DWH_EXT
+      schema: DBT
+      threads: 4
+      
 seeds:
   +schema: SALESFORCE
 
